@@ -38,6 +38,7 @@ console.log(`The odd numbers you gave are ${getOdds(numbers)}.`);
  */
 function getLength(numbers) {
   // TODO
+  return numbers.length
 }
 
 /**
@@ -46,6 +47,13 @@ function getLength(numbers) {
  */
 function getSum(numbers) {
   // TODO
+  let sum = 0
+  for(let i = 0 ; i < numbers.length ; i++) {
+    sum += i
+    
+  }
+  // console.log(sum)
+  return sum
 }
 
 /**
