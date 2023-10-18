@@ -48,9 +48,9 @@ function getLength(numbers) {
 function getSum(numbers) {
   // TODO
   let sum = 0
-  for(let i = 0 ; i < numbers.length + 1; i++) {
+  for(let i = 0 ; i < numbers.length ; i++) {
     // console.log(i)
-    sum += i
+    sum += numbers[i]
     
   }
   // console.log(sum)
@@ -65,8 +65,8 @@ function getMean(numbers) {
   // TODO
   let mean = 0
   let sum = 0
-  for(let i = 0 ; i < numbers.length + 1 ; i++){
-    sum += i
+  for(let i = 0 ; i < numbers.length ; i++){
+    sum += numbers[i]
     mean = sum / (numbers.length)
   }
   return mean
@@ -78,7 +78,8 @@ function getMean(numbers) {
  */
 function getMin(numbers) {
   // TODO
-  return numbers [0]
+  let min = Math.min(...numbers)
+  return min
 }
 
 /**
@@ -87,7 +88,9 @@ function getMin(numbers) {
  */
 function getMax(numbers) {
   // TODO
-  return numbers [numbers.length - 1]
+  // return numbers [numbers.length - 1]
+  let max =Math.max(...numbers)
+  return max
 }
 
 /**
