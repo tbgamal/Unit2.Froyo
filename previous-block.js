@@ -3,8 +3,8 @@
 
 // Prompt the user for a list of integers separated by commas.
 const userInputString = prompt(
-  "Please enter some integers separated by commas.",
-  "1,2,3,4,5"
+  "Please enter your selected flavors separated by commas.",
+  "vanilla,vanilla,vanilla,strawberry,coffee,coffee"
 );
 
 // Split the string of numbers into an array of strings.

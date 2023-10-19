@@ -1,14 +1,13 @@
-# Unit2.Stats.Starter
+# BLOCK 15 Workshop
 
-In this project, you will be building out the functionality of a simple app that asks a user for some numbers and then calculates some statistics according to the user's input.
+This repo contains my solution and a copy (retyped from cohort-repo solution) to block 15 workshop: Froyo Orders.
 
-## Instructions
+I have make two seperate JS files and two seperate HTML where one part is a retyped version while the other is where I experimented with my own way of coding.
 
-1. Fork this repository and then clone it down to your own computer.
-2. Open the project in VS Code.
-3. Live serve `index.html`. You should be greeted with a prompt.
-4. Complete the functions described in `index.js`!
+Below are the explanation of each files:
+1. froyo-test.js          = my own code to solve this Froyo Orders;
+2. test-index.html        = html file that links to froyo-test.js
+3. index-solutioncopy.js  = retyped cohort solution to see how it actually works
+4. index-solutioncopy.js  = html file that links to index-solutioncopy.js
+5. previous-block.js      = js file from previous block's workshop for referencing purposes.  
 
-## Submission
-
-Submit a link to your Github repo.
