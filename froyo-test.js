@@ -1,29 +1,69 @@
+/* 
+  Create a system that:
+  1. User inputs order;
+  2. Input received by console;
+  3. Console returns w/ user's order
+  
+  Definitions:
+  a. user's order = array of flavors (list of strings)
+  b. flavor = user prompted items
+
+  Output format:
+  - quantity of flavor ordered + name of flavor
+
+*/
+
+
 // create userInput
+// definition for user input
+
 const userInputString = prompt(
   "Please enter your selected froyo flavors separated by commas.",
   "vanilla,vanilla,vanilla,strawberry,coffee,coffee"
   );
 
-  const stringArray = userInputString.split(",");
+  const order = userInputString.split(",");
+  function flavor (str) {
+    selectedOrder = order.slice(str - 1, str)
+    // order.splice(str, order.length - 1 - str)
+    console.log (selectedOrder)
+  }
+
+  flavor(2)
+
+  
+  /*========= PLACEHOLDER =============== */
 
   const froyo = {
     flavor: []
   };
-
+  
   // console.log (froyo[key])
   
-  function orders(froyo.flavor){
-    for (let i = 0 ; i < stringArray.length; i++) {
-      // let flavorArray =  froyo.flavor + str
-      if (stringArray [i] in orders){
-        froyo.flavor [flavorArray[i]] += 1;
-      } 
-      else {
-        froyo.flavor [flavorArray [i]] = 1;
-      }    
-  }
+  // function orders(froyo.flavor){
+  //   for (let i = 0 ; i < stringArray.length; i++) {
+  //     // let flavorArray =  froyo.flavor + str
+  //     if (stringArray [i] in orders){
+  //       froyo.flavor [flavorArray[i]] += 1;
+  //     } 
+  //     else {
+  //       froyo.flavor [flavorArray [i]] = 1;
+  //     }    
+  // }
+  // return froyo.flavor
+  // }
+  
+  // console.log (`You have ordered these flavors \n${orders(stringArray)}`)
+  
+/*========= PLACEHOLDER =============== */
 
         
+
+
+
+
+
+
       
 // for (const key in froyo){
 //   if (froyo[key]) {
@@ -33,10 +73,6 @@ const userInputString = prompt(
 //     froyo[key] = 1;
 //   }
 // }
-    return froyo.flavor
-  }
-
-  console.log (`You have ordered these flavors \n${orders(stringArray)}`)
   // console.table (froyo)
 
 // const froyo = {
